@@ -1,0 +1,79 @@
+Frames.html:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webpage with Frames</title>
+</head>
+<frameset rows="25%, 25%, 25%, 25%">
+  <frame src="Picture.html">
+  <frame src="Table.html">
+  <frame src="List.html">
+  <frame src="Hyperlink.html">
+</frameset>
+</html>
+
+Picture.html:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picture Frame</title>
+</head>
+<body>
+  <h1>Picture Frame</h1>
+  <img src=" C:\Users\sowmy\Downloads\download.jpg" alt="Picture">
+</body>
+</html>
+
+Table.html:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Frame</title>
+</head>
+<body>
+  <h1>Table Frame</h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>30</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+List.html:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>List Frame</title>
+</head>
+<body>
+  <h1>List Frame</h1>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</body>
+</html>
+
+Hyperlink.html :
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hyperlink Frame</title>
+</head>
+<body>
+  <h1>Hyperlink Frame</h1>
+  <a href="https://www.mlrit.ac.in">Visit mlrit.ac.in</a>
+</body>
+</html>
